@@ -1,3 +1,16 @@
 @import 'config/general';
 @import 'breakpoints/breakpoints';
 @import 'layers/layers';
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Titillium Web', sans-serif;
+    width: 100%;
+    color: $blanco;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,42 @@
+#formulario{
+    background-color: $formulario;
+}
+
+.bbb-line{
+    border-bottom: 4px solid $bbb-line;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+}
+
+.titulo3{
+    margin: 0;
+    padding-top: 5%;
+    text-align: center;
+    text-transform: $mayuscula;
+}
+
+.texto{
+    text-align: center;
+    padding-top: 2%;
+}
+
+#nombre{
+    background-color:$cajasformu;
+    width: 40%;
+    margin: 1%;
+    display: block;
+}
+
+#email{
+    background-color:$cajasformu;
+    width: 40%;
+    margin: 1%;
+    display: block;
+}
+
+#mensaje{
+    background-color:$cajasformu;
+    width: 50%;
+    margin: 1%;
+    display: block;
+}
