@@ -106,18 +106,24 @@ h1 {
   padding-top: 2%; }
 
 #nombre {
+  border: 0px;
+  height: 2%;
   background-color: #273a71;
   width: 40%;
   margin: 1%;
   display: block; }
 
 #email {
+  border: 0px;
+  height: 2%;
   background-color: #273a71;
   width: 40%;
   margin: 1%;
   display: block; }
 
 #mensaje {
+  border: 0px;
+  height: 2%;
   background-color: #273a71;
   width: 50%;
   margin: 1%;
