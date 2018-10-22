@@ -3,14 +3,23 @@
     height: 50%;
 }
 
+#menu{
+    width: 4%;
+    height: 40px;
+    margin-left: 90%;
+    display: none;
+}
+
 // Lista
+.menu0{
+    display: inline;
+}
+
 .menu{
-    padding: 0;
-    margin: 0; 
+    padding: $cero;
+    margin: $cero; 
     text-transform: $mayuscula;
     list-style: none;
-    float: right;
-    position: absolute;
     margin-left: 70%;
 }
 
@@ -31,7 +40,6 @@
 
 .btn1{
     width: 30%;
-    height: 10%;
     border-radius: 5px;
     background-color: $btn1;
     border: 1px solid $btn1;
@@ -39,27 +47,30 @@
 }
 
 h1{
-    text-align: center;
+    text-align: $alineacion;
 }
 
 // Boton
 
 .btn2{
+    font-size:(17px / $fzparem + rem);
     background-color: $btn2;
     text-transform: $mayuscula;
     color: $blanco;
     border-bottom: 3px solid $sbtn2;
-    border-left: 0px ;
-    border-right: 0px ;
-    border-top: 0px ;
+    border-left: $cero ;
+    border-right: $cero ;
+    border-top: $cero ;
     border-radius: 3px ;
-    text-align: center;
+    text-align: $alineacion;
     margin-left: 40%;
     margin-bottom: 10%;
-    padding: 2%;
+    width: 15%;
+    padding: 1%;
 }
 
 .logo{
+    margin-left: 5%;
     margin-top: 5%;
     position: relative;
 

@@ -1,3 +1,27 @@
 #footer{
     background-color: $footer;
+    padding: 2%;
+}
+
+// Lista
+.menu2{
+    padding: $cero;
+    margin-left:30%; 
+    text-transform: $mayuscula;
+    list-style: none;
+}
+
+.menu2 li{
+    display: inline;
+
+}
+
+.menu2 li + li{
+    margin-left: 2%;
+}
+
+.menu2 a{
+    color:$blanco;
+    font-size:(15px / $fzparem + rem);
+
 }

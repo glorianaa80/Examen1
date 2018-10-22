@@ -1,5 +1,6 @@
 #formulario{
     background-color: $formulario;
+    width: 100%;
 }
 
 .bbb-line{
@@ -9,40 +10,82 @@
 }
 
 .titulo3{
-    margin: 0;
+    margin: $cero;
     padding-top: 5%;
-    text-align: center;
+    text-align: $alineacion;
     text-transform: $mayuscula;
 }
 
 .texto{
-    text-align: center;
+    text-align: $alineacion;
     padding-top: 2%;
 }
-
-#nombre{
-    border: 0px;
-    height: 2%;
-    background-color:$cajasformu;
-    width: 40%;
-    margin: 1%;
-    display: block;
+.label1{
+    margin-left: 2%; 
 }
 
-#email{
-    border: 0px;
-    height: 2%;
-    background-color:$cajasformu;
-    width: 40%;
-    margin: 1%;
+// Clases Formulario
+.nombre {
+    margin-left: 3%;
+    width: 49%;
+    display: inline-block;
+}
+
+.email {
+    width: 46%;
+    display: inline-block;
+}
+
+.mensaje{
+    margin:2%;
+}
+// Final Clases Formulario
+
+// ID Formularios
+#nombre {
+    @include formulario;
+    width:55%;
     display: block;
+    background-color: $cajasformu
+}
+
+#email {
+    @include formulario;
+    width:55%;
+    display: block;
+    background-color: $cajasformu;
 }
 
 #mensaje{
-    border: 0px;
-    height: 2%;
-    background-color:$cajasformu;
-    width: 50%;
-    margin: 1%;
+    @include formulario;
+    padding-bottom: 15%;
+    margin-left: 20%;
+    width:60%;
     display: block;
+    background-color: $cajasformu;
 }
+// Final ID Formularios
+
+// Boton
+.btn3{
+    width: 15%;
+    text-transform: $mayuscula;
+    text-align: $alineacion;
+    color: $blanco;
+    @include formulario;
+    background-color: $btn3;
+    border-bottom: 3px solid $sbtn3;
+    margin-left: 50%;
+    margin-top: 1%;
+}
+// Final del Boton
+
+// Linea 
+.bbf-line{
+    width: 4%;
+    height: 4px;
+    background-color: $bbb-line;
+    margin-left: 48%;
+    margin-top: 1%;
+}
+// Final de la linea
