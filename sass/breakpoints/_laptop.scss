@@ -1,6 +1,40 @@
 @media (max-width: $breakpoint-lg){
-    .hola{
-        font-size: 30px;
-        color: coral;   
+     // HEADER
+     #header{
+        .menu0{
+            display: none;
+        }
+        #menu{
+            width: 6%;
+            height: 60px;
+            display: block;
+        }
+        h1{
+            margin-left: 5%;
+            margin-right: 5%;
+        }
     }
-}
+    // Centro
+    #centro{
+        .cajas{
+            width: 18% ;  
+            display: inline-block;
+            margin-left: 5%;
+        }
+    }
+    //Formulario
+    #formulario{
+        .btn3{
+            width: 20%;
+        }
+    }
+    // Footer
+    #footer{
+        .menu2 {
+            margin-left:10%;  
+        } 
+        .menu2 a{
+            font-size:(20px / $fzparem + rem); 
+        } 
+    }
+} 
