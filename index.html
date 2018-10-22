@@ -9,20 +9,25 @@
 <body>
   <div>
     <div id="header">
+      <img id="menu" src="img/menu.png" alt="Logo de un menu">
       <img class="logo" src="img/logo.jpg" alt="Imagen del logo que dice Cuda">
-      <ul class="menu">
-        <li><button class="btn1"><a href="#">home</a></button></li>
-        <li><a href="#">about</a></li>
-        <li><a href="#">work</a></li>
-        <li><a href="#">blog</a></li>
-        <li><a href="#">contact </a></li>
-      </ul>
+      <div class="menu0">
+        <ul class="menu">
+          <li><button class="btn1"><a href="#">home</a></button></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">work</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">contact </a></li>
+        </ul>
+      </div>
+     
       <h1 class="titulo">Hi there! We are the new kids on ythe block and we build awesome wedsites and mobile apps.</h1>
       <button class="btn2">Work with us! </button>
     </div>
     <div id="centro">
-      <h2 class="titulo2 bb-line">services we provide</h2>
-      <p class="texto">We are working with both individuals and businesses from all over the globe to create awesome websites and applications</p>
+      <h2 class="titulo2 ">services we provide</h2>
+      <div class="bb-line"></div>
+      <p class="texto ">We are working with both individuals and businesses from all over the globe to create awesome websites and applications</p>
        <div class="cajas">
          <img src="img/bandera.jpg" alt="Imagen de una bandera">
          <h3 class="titulo2"> branding </h3>
@@ -45,23 +50,36 @@
        </div>
     </div>
     <div id="formulario">
-      <h2 class="titulo3 bbb-line">get in touch</h2>
+      <h2 class="titulo3">get in touch</h2>
+      <div class="bbf-line"></div>
       <p class="texto">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
       <form action="#">
-        <!-- Nombre -->
-        <label for="nombre">Your Name</label>
-        <input type="text" name="nombre" value="" id="nombre">
-        <!-- Email -->
-        <label for="email">Your Email</label>
-        <input type="text" name="email" value="" id="email">
-        <!-- Mensaje -->
-        <label for="mensaje">Your Message</label>
-        <input type="text" name="mensaje" value="" id="mensaje">
-        <input type="submit" value="send message">
+        <div class="nombre">
+          <!-- Nombre -->
+          <label class="label1" for="nombre">Your Name</label>
+          <input type="text" name="nombre" value="" id="nombre">
+          <!--Fin de nombre -->
+        </div>
+       
+        <div class="email">
+          <!-- Email --> 
+          <label class="label1" for="email">Your Email</label>
+          <input type="text" name="email" value="" id="email"> 
+          <!-- Fin de email  -->
+        </div>
+      
+        <div class="mensaje">
+          <!-- Mensaje -->
+          <label class="label1" for="mensaje">Your Message</label>
+          <input type="text" name="mensaje" value="" id="mensaje">
+          <!-- Fin de  -->
+        </div>
+        
+        <input class="btn3" type="submit" value="send message">
       </form>
     </div>
     <div id="footer">
-       <ul class="">
+       <ul class="menu2">
          <li><a href="#">Facebook</a></li>
          <li><a href="#">Twitter</a></li>
          <li><a href="#">Google+</a></li>
