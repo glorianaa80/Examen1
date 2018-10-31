@@ -8,65 +8,80 @@
 </head>
 <body>
   <div>
+    <!-- Header -->
     <div id="header">
       <img id="menu" src="img/menu.png" alt="Logo de un menu">
-      <img class="logo" src="img/logo.jpg" alt="Imagen del logo que dice Cuda">
-      <div class="menu0">
-        <ul class="menu">
-          <li><button class="btn1"><a href="#">home</a></button></li>
-          <li><a href="#">about</a></li>
-          <li><a href="#">work</a></li>
-          <li><a href="#">blog</a></li>
-          <li><a href="#">contact </a></li>
-        </ul>
+      <div>
+        <img class="logo" src="img/logo.jpg" alt="Imagen del logo que dice Cuda">
+        <div class="menu0">
+          <ul class="menu">
+            <li><button class="btn1"><a href="#">home</a></button></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">work</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">contact </a></li>
+          </ul>
+        </div> 
       </div>
-     
+
       <h1 class="titulo">Hi there! We are the new kids on ythe block and we build awesome wedsites and mobile apps.</h1>
       <button class="btn2">Work with us! </button>
     </div>
+    <!-- Final de Header -->
+
+    <!-- Centro -->
     <div id="centro">
       <h2 class="titulo2 ">services we provide</h2>
       <div class="bb-line"></div>
       <p class="texto ">We are working with both individuals and businesses from all over the globe to create awesome websites and applications</p>
-       <div class="cajas">
-         <img src="img/bandera.jpg" alt="Imagen de una bandera">
-         <h3 class="titulo2"> branding </h3>
-         <p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-       </div>
-       <div class="cajas">
-         <img src="img/lapiz.jpg" alt="Imagen de un lapiz">
-         <h3 class="titulo2"> design </h3>
-         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem  </p>
-       </div>
-       <div class="cajas">
-         <img src="img/engranaje.jpg" alt="Imagen de dos engranajes">
-         <h3 class="titulo2"> development </h3>
-         <p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
-       </div>
-       <div class="cajas">
-         <img src="img/nave.jpg" alt="Imagen de una nave espacial">
-         <h3 class="titulo2"> rocket science </h3>
-         <p>Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
-       </div>
+      <div id="centro2">
+          <div class="cajas">
+          <img src="img/bandera.jpg" alt="Imagen de una bandera">
+          <h3 class="titulo2"> branding </h3>
+          <p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+        </div>
+        <div class="cajas">
+          <img src="img/lapiz.jpg" alt="Imagen de un lapiz">
+          <h3 class="titulo2"> design </h3>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem  </p>
+        </div>
+        <div class="cajas">
+          <img src="img/engranaje.jpg" alt="Imagen de dos engranajes">
+          <h3 class="titulo2"> development </h3>
+          <p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
+        </div>
+        <div class="cajas">
+          <img src="img/nave.jpg" alt="Imagen de una nave espacial">
+          <h3 class="titulo2"> rocket science </h3>
+          <p>Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
+        </div>
+      </div> 
+      
     </div>
+    <!-- Final del centro -->
+
+    <!-- Formulario -->
     <div id="formulario">
       <h2 class="titulo3">get in touch</h2>
       <div class="bbf-line"></div>
       <p class="texto">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
-      <form action="#">
-        <div class="nombre">
+      <form action="#" id="form">
+        <div>
           <!-- Nombre -->
-          <label class="label1" for="nombre">Your Name</label>
-          <input type="text" name="nombre" value="" id="nombre">
+          <div class="nombre">
+            <label class="label1" for="nombre">Your Name</label>
+            <input type="text" name="nombre" value="" id="nombre">
+          </div>
           <!--Fin de nombre -->
-        </div>
-       
-        <div class="email">
+
           <!-- Email --> 
-          <label class="label1" for="email">Your Email</label>
-          <input type="text" name="email" value="" id="email"> 
-          <!-- Fin de email  -->
+          <div class="email"> 
+            <label class="label1" for="email">Your Email</label>
+            <input type="text" name="email" value="" id="email"> 
+          </div>
+           <!-- Fin de email  -->
         </div>
+
       
         <div class="mensaje">
           <!-- Mensaje -->
@@ -78,17 +93,21 @@
         <input class="btn3" type="submit" value="send message">
       </form>
     </div>
+    <!-- Final del fotmulario -->
+
+    <!-- Footer -->
     <div id="footer">
        <ul class="menu2">
-         <li><a href="#">Facebook</a></li>
-         <li><a href="#">Twitter</a></li>
-         <li><a href="#">Google+</a></li>
-         <li><a href="#">linkedln</a></li>
-         <li><a href="#">Behance</a></li>
-         <li><a href="#">Dribbble</a></li>
-         <li><a href="#">GitHub </a></li>
+         <li><a href="#" target="_blank">Facebook</a></li>
+         <li><a href="#" target="_blank">Twitter</a></li>
+         <li><a href="#" target="_blank">Google+</a></li>
+         <li><a href="#" target="_blank">linkedln</a></li>
+         <li><a href="#" target="_blank">Behance</a></li>
+         <li><a href="#" target="_blank">Dribbble</a></li>
+         <li><a href="#" target="_blank">GitHub </a></li>
        </ul>
     </div>
+    <!-- Final del Footer -->
   </div>
   <script src="script.js"></script>
 </body>
