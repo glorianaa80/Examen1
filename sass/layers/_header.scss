@@ -1,16 +1,22 @@
 #header{
     background-color:$header; 
-    height: 50%;
 }
 
 #menu{
     width: 4%;
-    height: 40px;
     margin-left: 90%;
     display: none;
 }
 
-// Lista
+// Logo
+.logo{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 45%;
+}
+// Fin el logo
+
+// Lista Menu
 .menu0{
     display: inline;
 }
@@ -20,7 +26,7 @@
     margin: $cero; 
     text-transform: $mayuscula;
     list-style: none;
-    margin-left: 70%;
+    display: inline-block;
 }
 
 .menu li{
@@ -37,21 +43,25 @@
     font-size:(15px / $fzparem + rem);
 
 }
+//  Final de lista menu
 
+// Hover del menu
 .btn1{
-    width: 30%;
+    width: 15%;
     border-radius: 5px;
     background-color: $btn1;
     border: 1px solid $btn1;
     text-transform: $mayuscula;
 }
+//Final del hover del menu
 
+// Titulo principal
 h1{
     text-align: $alineacion;
 }
+// Final titulo principal
 
 // Boton
-
 .btn2{
     font-size:(17px / $fzparem + rem);
     background-color: $btn2;
@@ -68,10 +78,4 @@ h1{
     width: 15%;
     padding: 1%;
 }
-
-.logo{
-    margin-left: 5%;
-    margin-top: 5%;
-    position: relative;
-
-}
+// Final del boton
