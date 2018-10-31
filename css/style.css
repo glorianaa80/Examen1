@@ -49,7 +49,8 @@
 
   #centro .cajas {
     width: 45%;
-    display: inline-block; }
+    display: inline-block;
+    margin-left: 25%; }
 
   #formulario .btn3 {
     width: 20%; }
@@ -59,14 +60,17 @@
   #footer .menu2 a {
     font-size: 0.8125rem; } }
 #header {
-  background-color: #87509c;
-  height: 50%; }
+  background-color: #87509c; }
 
 #menu {
   width: 4%;
-  height: 40px;
   margin-left: 90%;
   display: none; }
+
+.logo {
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-right: 45%; }
 
 .menu0 {
   display: inline; }
@@ -76,7 +80,7 @@
   margin: 0px;
   text-transform: uppercase;
   list-style: none;
-  margin-left: 70%; }
+  display: inline-block; }
 
 .menu li {
   display: inline; }
@@ -89,7 +93,7 @@
   font-size: 0.9375rem; }
 
 .btn1 {
-  width: 30%;
+  width: 15%;
   border-radius: 5px;
   background-color: #643a79;
   border: 1px solid #643a79;
@@ -114,14 +118,13 @@ h1 {
   width: 15%;
   padding: 1%; }
 
-.logo {
-  margin-left: 5%;
-  margin-top: 5%;
-  position: relative; }
-
 #centro {
   width: 100%;
   background-color: #17c2a4; }
+
+#centro2 {
+  margin: 0 auto;
+  padding-left: 5%; }
 
 .titulo2 {
   margin: 0px;
@@ -170,8 +173,12 @@ h1 {
 .label1 {
   margin-left: 2%; }
 
+#form {
+  max-width: 60%;
+  margin: 0 auto; }
+
 .nombre {
-  margin-left: 3%;
+  margin-right: 3%;
   width: 49%;
   display: inline-block; }
 
@@ -187,7 +194,7 @@ h1 {
   border: 0px;
   margin: 1%;
   padding: 1%;
-  width: 55%;
+  width: 100%;
   display: block;
   background-color: #273a71; }
 
@@ -196,7 +203,7 @@ h1 {
   border: 0px;
   margin: 1%;
   padding: 1%;
-  width: 55%;
+  width: 100%;
   display: block;
   background-color: #273a71; }
 
