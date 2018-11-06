@@ -1,15 +1,13 @@
 @media (max-width: $breakpoint-sm){
     // HEADER
     #header{
-        .menu0{
-            display: none;
-        }
-        #menu{
-            width: 6%;
-            height: 60px;
-            display: block;
+        .cabeza{
+            padding-top: 17%;
         }
     }
+
+   
+
     // Centro
     #centro{
         .cajas{
@@ -21,16 +19,20 @@
     //Formulario
     #formulario{
         .btn3{
-            width: 20%;
+            width: 25%;
+        }
+        #form{
+            max-width: 90%;
+            margin: 0 auto;
         }
     }
     // Footer
     #footer{
         .menu2 {
-            margin-left:5%;  
+            margin-left:2%;  
         } 
         .menu2 a{
-            font-size:(13px / $fzparem + rem); 
+            font-size:(11px / $fzparem + rem); 
         } 
     }
 }

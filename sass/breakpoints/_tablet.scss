@@ -1,15 +1,21 @@
 @media (max-width: $breakpoint-md){
     // HEADER
     #header{
-        // .menu0{
-        //     display: none;
-        // }
+        .cabeza{
+            padding-top: 17%;
+        }
+
+    }
+
+     // Header fijo
+     #headerFijo{
         #menu{
             width: 6%;
             height: 60px;
             display: block;
         }
     }
+
     // Centro
     #centro{
         .cajas{
@@ -22,6 +28,10 @@
     #formulario{
         .btn3{
             width: 20%;
+        }
+        #form{
+            max-width: 90%;
+            margin: 0 auto;
         }
     }
     // Footer
