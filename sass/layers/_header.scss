@@ -57,6 +57,9 @@
 //  Final de lista menu
 
 // Hover del menu
+.boton{
+    text-align: center;
+}
 .btn1{
     padding-left:2%;
     padding-right:2%;
@@ -86,10 +89,8 @@ h1{
     border-top: $cero ;
     border-radius: 3px ;
     text-align: $alineacion;
-    margin-left: 40%;
     margin-top: 3%;
     margin-bottom: 10%;
-    width: 15%;
     padding: 1%;
 }
 // Final del boton
